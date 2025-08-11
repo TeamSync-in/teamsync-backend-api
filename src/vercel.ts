@@ -31,7 +31,7 @@ app.use(
     origin: [
       config.FRONTEND_ORIGIN,
       "http://localhost:3000",
-      "https://teamsync-frontend.vercel.app", // Add your frontend Vercel URL
+      "https://teamsync-frontend-subham.vercel.app", // Add your frontend Vercel URL
       /\.vercel\.app$/, // Allow all Vercel preview deployments
     ],
     credentials: true,
