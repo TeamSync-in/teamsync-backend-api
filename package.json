@@ -23,8 +23,13 @@
     "docker:run": "docker run -p 8000:8000 --env-file .env teamsync-backend",
     "docker:compose:up": "docker-compose up -d",
     "docker:compose:down": "docker-compose down",
-    "prepare": "npm run build",
-    "postinstall": "npm run build"
+    "vercel-build": "echo 'No build step required for Vercel'",
+    "deploy": "vercel --prod",
+    "deploy:preview": "vercel",
+    "vercel:dev": "vercel dev",
+    "vercel:inspect": "vercel inspect",
+    "precheck": "npm run ts:check && echo 'TypeScript check passed!'",
+    "vercel:test": "npm run precheck && echo 'Ready for Vercel deployment!'"
   },
   "repository": {
     "type": "git",
@@ -46,8 +51,8 @@
   ],
   "author": {
     "name": "Subham Paul",
-    "email": "your.email@example.com",
-    "url": "https://github.com/subhampaul"
+    "email": "extraordinary0123456789@gmail.com",
+    "url": "https://github.com/ItisSubham"
   },
   "license": "MIT",
   "bugs": {
@@ -87,6 +92,7 @@
     "pre-commit": "^1.2.2",
     "rimraf": "^6.0.1",
     "ts-node-dev": "^2.0.0",
-    "typescript": "^5.7.2"
+    "typescript": "^5.7.2",
+    "vercel": "^39.2.3"
   }
 }
