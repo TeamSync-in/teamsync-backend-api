@@ -1,0 +1,156 @@
+# ==================================================
+# TeamSync Backend - Git Ignore Configuration
+# ==================================================
+
+# ==================
+# Dependencies
+# ==================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# ==================
+# Environment Variables
+# ==================
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env.*.local
+
+# ==================
+# Build Outputs
+# ==================
+build/
+dist/
+out/
+.next/
+.nuxt/
+
+# ==================
+# Logs
+# ==================
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# ==================
+# Runtime Data
+# ==================
+pids/
+*.pid
+*.seed
+*.pid.lock
+lib-cov/
+coverage/
+.nyc_output/
+
+# ==================
+# Temporary Files
+# ==================
+.tmp/
+.temp/
+*.tmp
+*.temp
+.cache/
+
+# ==================
+# IDE & Editor Files
+# ==================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# ==================
+# Testing
+# ==================
+coverage/
+.nyc_output/
+.jest/
+test-results/
+junit.xml
+
+# ==================
+# Database
+# ==================
+*.sqlite
+*.sqlite3
+*.db
+data/
+mongodb-data/
+
+# ==================
+# Uploads & Static Files
+# ==================
+uploads/
+public/uploads/
+static/uploads/
+
+# ==================
+# Deployment
+# ==================
+.vercel/
+.netlify/
+.surge/
+
+# ==================
+# Package Managers
+# ==================
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.yarn/install-state.gz
+.pnp.*
+.npm
+.eslintcache
+
+# ==================
+# TypeScript
+# ==================
+*.tsbuildinfo
+.tscache/
+
+# ==================
+# Security & Secrets
+# ==================
+.secrets
+*.pem
+*.key
+*.crt
+*.cert
+
+# ==================
+# OS Generated Files
+# ==================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# ==================
+# Backup Files
+# ==================
+*.backup
+*.bak
+*.orig
+
+# ==================
+# Documentation Build
+# ==================
+docs/build/
+.docusaurus/
