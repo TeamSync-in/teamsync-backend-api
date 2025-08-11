@@ -29,7 +29,7 @@ This project and everyone participating in it is governed by our Code of Conduct
 ### Quick Setup
 
 1. Fork the repository
-2. Clone your fork: `git clone https://github.com/yourusername/teamsync-backend.git`
+2. Clone your fork: `git clone https://github.com/TeamSync-in/teamsync-backend-api.git`
 3. Install dependencies: `npm install`
 4. Copy environment file: `cp .env.example .env`
 5. Configure your `.env` file
@@ -83,8 +83,8 @@ We welcome code contributions! Here are some areas where you can help:
 
 ```bash
 # Fork the repository on GitHub, then:
-git clone https://github.com/yourusername/teamsync-backend.git
-cd teamsync-backend
+git clone https://github.com/TeamSync-in/teamsync-backend-api.git
+cd teamsync-backend-api
 ```
 
 ### 2. Set Up Environment
@@ -301,7 +301,7 @@ npm run test:coverage
 
 If you have questions that aren't covered in this guide:
 
-- Check existing [GitHub Issues](https://github.com/yourusername/teamsync-backend/issues)
+- Check existing [GitHub Issues](https://github.com/TeamSync-in/teamsync-backend-api/issues)
 - Create a new issue with the `question` label
 - Reach out to maintainers
 
