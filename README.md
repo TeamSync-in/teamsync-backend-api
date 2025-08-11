@@ -327,13 +327,13 @@ npm run lint
 1. Build the Docker image:
 
 ```bash
-docker build -t teamsync-backend .
+docker build -t teamsync-backend-api .
 ```
 
 2. Run the container:
 
 ```bash
-docker run -p 8000:8000 --env-file .env teamsync-backend
+docker run -p 8000:8000 --env-file .env teamsync-backend-api
 ```
 
 ### Traditional Deployment
